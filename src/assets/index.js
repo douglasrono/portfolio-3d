@@ -27,13 +27,15 @@ import telebora from "./company/telebora.png";
 import boxleo from "./company/boxleo.png";
 import medialinks from "./company/medialinks.png";
 
+import callcenterSystem from "./projects/callcenter.png";
 import posSsystem from "./projects/pos.webp";
 import logisticsSystem from "./projects/logistics.png";
-import callcenterSystem from "./projects/callcenter.png";
+import hrmSystem from "./projects/hrm.png";
+import chatbotSystem from "./projects/chatbots.svg";
+import crmSystem from "./projects/crm.svg";
+import whatsappSystem from "./projects/whatsapp.svg";
 
-import zealApp from "./projects/zealApp.png";
-import rollWeb from "./projects/rollWeb.png";
-import rollApp from "./projects/rollApp.png";
+
 
 export {
   logo,
@@ -66,7 +68,8 @@ export {
   posSsystem,
   logisticsSystem,
   callcenterSystem,
-  zealApp,
-  rollWeb,
-  rollApp,
+  hrmSystem,
+  chatbotSystem,
+  crmSystem,
+  whatsappSystem
 };

@@ -21,10 +21,13 @@ import {
   boxleo,
   medialinks,
   posSsystem,
-  logisticsSystem,
   callcenterSystem,
   linkedIn,
   github,
+  hrmSystem,
+  crmSystem,
+  whatsappSystem,
+  chatbotSystem,
 } from "../assets";
 
 const navigationPaths = {
@@ -195,25 +198,6 @@ const projects = [{
     hosted_link: "#",
   },
   {
-    name: "Logistics Management System",
-    description: "A robust system designed to streamline order processing, dispatch, tracking, and warehouse management for logistics companies.",
-    tags: [{
-        name: "laravel",
-        color: "blue-text-gradient"
-      },
-      {
-        name: "vuejs",
-        color: "green-text-gradient"
-      },
-      {
-        name: "nodejs",
-        color: "pink-text-gradient"
-      },
-    ],
-    image: callcenterSystem,
-    hosted_link: "#",
-  },
-  {
     name: "AI-Powered Call Center Management",
     description: "An AI-driven call center solution that automates customer interactions, improves response times, and enhances call analytics.",
     tags: [{
@@ -229,7 +213,7 @@ const projects = [{
         color: "pink-text-gradient"
       },
     ],
-    image: posSsystem,
+    image: callcenterSystem,
     hosted_link: "https://telebora.com",
   },
   {
@@ -248,7 +232,7 @@ const projects = [{
         color: "pink-text-gradient"
       },
     ],
-    image: callcenterSystem,
+    image: hrmSystem,
     hosted_link: "#",
   },
   {
@@ -267,28 +251,10 @@ const projects = [{
         color: "pink-text-gradient"
       },
     ],
-    image: posSsystem,
+    image: crmSystem,
     hosted_link: "#",
   },
-  {
-    name: "Camilish Company Website",
-    description: "A professional website for Camilish, showcasing their services, portfolio, and business expertise with a sleek UI/UX.",
-    tags: [{
-        name: "react",
-        color: "blue-text-gradient"
-      },
-      {
-        name: "bootstrap",
-        color: "green-text-gradient"
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient"
-      },
-    ],
-    image: posSsystem,
-    hosted_link: "https://camilish.com",
-  },
+ 
   {
     name: "WhatsApp Omnichannel",
     description: "A multi-channel messaging system integrating WhatsApp for businesses to automate responses and manage customer interactions.",
@@ -305,7 +271,7 @@ const projects = [{
         color: "pink-text-gradient"
       },
     ],
-    image: posSsystem,
+    image: whatsappSystem,
     hosted_link: "#",
   },
   {
@@ -324,7 +290,7 @@ const projects = [{
         color: "pink-text-gradient"
       },
     ],
-    image: posSsystem,
+    image: chatbotSystem,
     hosted_link: "#",
   },
 ];
